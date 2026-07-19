@@ -1,6 +1,3 @@
-Tentu, ini adalah keseluruhan teksnya yang sudah dijadikan satu dalam format *Markdown* agar kamu bisa langsung meng-klik tombol *Copy* dan menempelkannya dengan mudah di GitHub!
-
-```markdown
 <div align="center">
   <h1>🕌 Sistem Informasi & Manajemen Musholla At-Taqwa</h1>
   <p>Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan transparansi keuangan Musholla At-Taqwa. Dibangun dengan pendekatan <em>Mobile-First</em> untuk memastikan kenyamanan akses jamaah melalui <em>smartphone</em>, serta dilengkapi dengan dasbor Admin yang komprehensif.</p>
@@ -11,17 +8,20 @@ Tentu, ini adalah keseluruhan teksnya yang sudah dijadikan satu dalam format *Ma
 ## 📸 Cuplikan Layar (Screenshots)
 
 ### 1. Tampilan Jamaah (Landing Page - Desktop)
-> **[BLOK TEKS INI DAN DRAG & DROP GAMBAR "screencapture-unbuckled-shrimp-corrode-ngrok-free-dev-2026-07-20-00_21_09.jpg" DI SINI]**
+> **<img width="1908" height="7756" alt="screencapture-unbuckled-shrimp-corrode-ngrok-free-dev-2026-07-20-00_21_09" src="https://github.com/user-attachments/assets/8235a5fc-52cd-49d8-8c34-b025fbafb053" />
+**
 
 ### 2. Tampilan Jamaah (Landing Page - Mobile)
 <div align="center">
   
-> **[BLOK TEKS INI DAN DRAG & DROP GAMBAR "WhatsApp Image 2026-07-20 at 00.24.52.jpeg" DI SINI]**
+> **<img width="591" height="1280" alt="WhatsApp Image 2026-07-20 at 00 24 52" src="https://github.com/user-attachments/assets/80bf4315-6cd9-40c2-9322-cf5c8ab67d8a" />
+**
   
 </div>
 
 ### 3. Tampilan Pengurus (Admin Panel)
-> **[BLOK TEKS INI DAN DRAG & DROP GAMBAR "screencapture-unbuckled-shrimp-corrode-ngrok-free-dev-admin-2026-07-20-00_23_23.png" DI SINI]**
+> **<img width="1908" height="968" alt="screencapture-unbuckled-shrimp-corrode-ngrok-free-dev-admin-2026-07-20-00_23_23" src="https://github.com/user-attachments/assets/207bd808-b0ad-4b6b-9851-f763149cc3a0" />
+**
 
 ---
 
