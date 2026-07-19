@@ -1,17 +1,24 @@
-# 🕌 Sistem Informasi & Manajemen Musholla At-Taqwa
+<div align="center">
+  <h1>🕌 Sistem Informasi & Manajemen Musholla At-Taqwa</h1>
+  <p>Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan transparansi keuangan Musholla At-Taqwa. Dibangun dengan pendekatan <em>Mobile-First</em> untuk memastikan kenyamanan akses jamaah melalui <em>smartphone</em>, serta dilengkapi dengan dasbor Admin yang komprehensif.</p>
+</div>
 
-Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan transparansi keuangan Musholla At-Taqwa. Dibangun dengan pendekatan *Mobile-First* untuk memastikan kenyamanan akses jamaah melalui *smartphone*, serta dilengkapi dengan dasbor Admin yang kuat.
+---
 
 ## 📸 Cuplikan Layar (Screenshots)
 
-<!-- GANTI LINK GAMBAR DI BAWAH INI NANTI -->
-### Tampilan Jamaah (Landing Page)
-![Tampilan Landing Page Desktop](https://via.placeholder.com/800x400?text=Masukkan+Gambar+Tampilan+Desktop+Di+Sini)
+### 1. Tampilan Jamaah (Landing Page - Desktop)
+> **[BLOK TEKS INI DAN DRAG & DROP GAMBAR "screencapture-unbuckled-shrimp-corrode-ngrok-free-dev-2026-07-20-00_21_09.jpg" DI SINI]**
 
-![Tampilan Landing Page Mobile](https://via.placeholder.com/300x600?text=Masukkan+Gambar+Tampilan+Mobile+Di+Sini)
+### 2. Tampilan Jamaah (Landing Page - Mobile)
+<div align="center">
+  
+> **[BLOK TEKS INI DAN DRAG & DROP GAMBAR "WhatsApp Image 2026-07-20 at 00.24.52.jpeg" DI SINI]**
+  
+</div>
 
-### Tampilan Pengurus (Admin Panel)
-![Tampilan Dasbor Admin](https://via.placeholder.com/800x400?text=Masukkan+Gambar+Admin+Panel+Di+Sini)
+### 3. Tampilan Pengurus (Admin Panel)
+> **[BLOK TEKS INI DAN DRAG & DROP GAMBAR "screencapture-unbuckled-shrimp-corrode-ngrok-free-dev-admin-2026-07-20-00_23_23.png" DI SINI]**
 
 ---
 
@@ -19,21 +26,21 @@ Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan tra
 
 ### 📱 Publik (Landing Page)
 - **Tampilan Responsif & Modern:** Desain antarmuka (UI) yang rapi di semua ukuran layar (Mobile, Tablet, Desktop) dilengkapi dengan fitur *Dark Mode*.
-- **Informasi Ibadah:** Jadwal sholat harian dan informasi kajian/tausiyah.
-- **Transparansi Keuangan:** Publikasi laporan mutasi kas (pemasukan dan pengeluaran) infaq/sodaqoh jamaah secara *real-time*.
-- **Pusat Informasi:** Papan pengumuman kegiatan, berita liputan musholla, dan galeri dokumentasi.
-- **Donasi Digital:** Dukungan infaq mudah menggunakan *scan* kode QRIS.
+- **Informasi Ibadah:** Jadwal sholat harian dan informasi kajian/tausiyah nasional secara *real-time*.
+- **Transparansi Keuangan:** Publikasi laporan mutasi kas (pemasukan dan pengeluaran) infaq/sodaqoh jamaah yang tersistemasi.
+- **Pusat Informasi:** Papan pengumuman kegiatan, berita liputan musholla, dan galeri dokumentasi acara.
+- **Donasi Digital:** Dukungan infaq mudah menggunakan integrasi *scan* kode QRIS.
 
 ### ⚙️ Pengurus (Admin Panel)
 - **Manajemen Konten:** Kemudahan dalam menambah, mengedit, dan menghapus artikel berita, agenda, serta galeri foto.
-- **Manajemen Kas (Buku Besar):** Pencatatan sirkulasi keuangan musholla dengan perhitungan saldo otomatis.
-- **Manajemen Kepengurusan:** Pembaruan struktur organisasi dan profil pengurus musholla.
+- **Manajemen Kas (Buku Besar):** Pencatatan sirkulasi keuangan musholla dengan kalkulasi saldo akhir otomatis.
+- **Manajemen Kepengurusan:** Pembaruan struktur organisasi dan profil kepengurusan musholla.
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Framework Utama:** [Laravel](https://laravel.com/)
+- **Framework Utama:** [Laravel 11](https://laravel.com/)
 - **Admin Panel:** [Filament v3](https://filamentphp.com/)
 - **Desain & UI:** [Tailwind CSS](https://tailwindcss.com/) & [Alpine.js](https://alpinejs.dev/)
 - **Pemrosesan Aset:** Vite
@@ -42,45 +49,45 @@ Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan tra
 
 ## 🚀 Panduan Instalasi Lokal
 
-Jika Anda ingin menjalankan proyek ini di komputer lokal untuk pengembangan, ikuti langkah-langkah berikut:
+Jika Anda ingin menjalankan proyek ini di komputer lokal untuk pengembangan atau pengujian, ikuti langkah-langkah berikut:
 
 1. **Kloning Repositori**
    ```bash
    git clone [https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git](https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git)
    cd Web-Musholla-At-Taqwa
 
-Instalasi Dependensi PHP & Node.js
-
-Bash
+1.	Instalasi Dependensi PHP & Node.js
 composer install
 npm install
-Kompilasi Aset Desain (Vite)
 
-Bash
+2.	Kompilasi Aset Desain (Vite)
 npm run build
-Pengaturan Environment
+
+3.	Pengaturan Environment 
 Salin file .env.example menjadi .env, lalu buat App Key.
 
-Bash
 cp .env.example .env
 php artisan key:generate
-Jangan lupa atur koneksi database (DB_DATABASE, DB_USERNAME, dll) di dalam file .env Anda.
 
-Migrasi Database & Seeder
+Penting: Atur koneksi database (DB_DATABASE, DB_USERNAME, DB_PASSWORD) di dalam file .env Anda sesuai dengan pengaturan lokal (misal: MySQL/MariaDB XAMPP).
 
-Bash
-php artisan migrate --seed
-(Opsional: Tambahkan perintah untuk membuat user admin Filament jika diperlukan php artisan make:filament-user)
+4.	Migrasi Database & Seeder 
+Bangun struktur tabel ke dalam database:
 
-Tautkan Folder Penyimpanan (Storage)
-Agar gambar galeri dan berita dapat diakses publik:
+php artisan migrate
 
-Bash
+Untuk membuat akun Admin baru, jalankan perintah: php artisan make:filament-user
+
+5.	Tautkan Folder Penyimpanan (Storage) 
+Langkah ini wajib dilakukan agar gambar galeri, profil, dan berita dapat ditampilkan ke publik:
+
 php artisan storage:link
-Jalankan Server Lokal
 
-Bash
+6.	Jalankan Server Lokal
+
 php artisan serve
-Akses website melalui http://localhost:8000 dan panel admin di http://localhost:8000/admin.
+Sistem siap digunakan! Akses landing page melalui http://localhost:8000 dan dasbor admin di http://localhost:8000/admin.
 
-Dibuat untuk memudahkan tata kelola dan syiar Musholla At-Taqwa.
+👨‍💻 Pengembang
+Dikembangkan oleh Ikmalrizal (Mahasiswa STT-NF) sebagai bagian dari proyek sistem informasi dan manajemen operasional sarana ibadah.
+
