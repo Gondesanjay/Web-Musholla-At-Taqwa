@@ -1,3 +1,4 @@
+Markdown
 <div align="center">
   <h1>🕌 Sistem Informasi & Manajemen Musholla At-Taqwa</h1>
   <p>Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan transparansi keuangan Musholla At-Taqwa. Dibangun dengan pendekatan <em>Mobile-First</em> untuk memastikan kenyamanan akses jamaah melalui <em>smartphone</em>, serta dilengkapi dengan dasbor Admin yang komprehensif.</p>
@@ -55,39 +56,40 @@ Jika Anda ingin menjalankan proyek ini di komputer lokal untuk pengembangan atau
    ```bash
    git clone [https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git](https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git)
    cd Web-Musholla-At-Taqwa
+Instalasi Dependensi PHP & Node.js
 
-1.	Instalasi Dependensi PHP & Node.js
+Bash
 composer install
 npm install
+Kompilasi Aset Desain (Vite)
 
-2.	Kompilasi Aset Desain (Vite)
+Bash
 npm run build
-
-3.	Pengaturan Environment 
+Pengaturan Environment
 Salin file .env.example menjadi .env, lalu buat App Key.
 
+Bash
 cp .env.example .env
 php artisan key:generate
-
 Penting: Atur koneksi database (DB_DATABASE, DB_USERNAME, DB_PASSWORD) di dalam file .env Anda sesuai dengan pengaturan lokal (misal: MySQL/MariaDB XAMPP).
 
-4.	Migrasi Database & Seeder 
+Migrasi Database & Seeder
 Bangun struktur tabel ke dalam database:
 
+Bash
 php artisan migrate
-
 Untuk membuat akun Admin baru, jalankan perintah: php artisan make:filament-user
 
-5.	Tautkan Folder Penyimpanan (Storage) 
+Tautkan Folder Penyimpanan (Storage)
 Langkah ini wajib dilakukan agar gambar galeri, profil, dan berita dapat ditampilkan ke publik:
 
+Bash
 php artisan storage:link
+Jalankan Server Lokal
 
-6.	Jalankan Server Lokal
-
+Bash
 php artisan serve
 Sistem siap digunakan! Akses landing page melalui http://localhost:8000 dan dasbor admin di http://localhost:8000/admin.
 
 👨‍💻 Pengembang
 Dikembangkan oleh Ikmalrizal (Mahasiswa STT-NF) sebagai bagian dari proyek sistem informasi dan manajemen operasional sarana ibadah.
-
