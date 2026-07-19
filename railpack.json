@@ -1,0 +1,4 @@
+{
+  "provider": "php",
+  "phpExtensions": ["intl", "zip", "gd", "bcmath", "pdo_mysql", "mbstring", "exif"]
+}
