@@ -27,6 +27,14 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+
+            // --- PENGATURAN LOGO MUSHOLLA ---
+            ->brandName('Musholla At-Taqwa')
+            ->brandLogo(asset('storage/images/logo.jpg'))
+            ->brandLogoHeight('3rem') 
+            ->profile(isSimple: false)
+            // -----------------------------
+
             ->databaseNotifications()
             ->colors([
                 'primary' => Color::Amber,

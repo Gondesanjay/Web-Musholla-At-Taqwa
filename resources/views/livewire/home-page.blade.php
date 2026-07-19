@@ -107,7 +107,6 @@
             </div>
         </div>
     </div>
-    </nav>
 
     <!-- HERO SECTION -->
     <header x-data="{
@@ -131,10 +130,11 @@
             </div>
         </template>
 
-        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto -mt-10">
+        <!-- DIPERBAIKI: Jarak dan Ukuran Font di HP disesuaikan -->
+        <div class="relative z-10 text-center px-4 md:px-8 max-w-4xl mx-auto -mt-10">
             <h3 class="text-yellow-400 font-bold tracking-widest mb-4 text-xl md:text-2xl drop-shadow-md">السَّلَامُ عَلَيْكُمْ</h3>
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-lg">Musholla At-Taqwa</h1>
-            <p class="text-gray-100 font-medium mb-10 text-lg md:text-xl leading-relaxed drop-shadow-md">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white drop-shadow-lg">Musholla At-Taqwa</h1>
+            <p class="text-sm md:text-lg lg:text-xl text-gray-100 font-medium mb-10 leading-relaxed drop-shadow-md">
                 Pusat ibadah, pendidikan, dan kegiatan sosial umat Islam. Bersama memakmurkan rumah Allah dan bermanfaat bagi lingkungan sekitar.
             </p>
             <div class="flex justify-center flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
@@ -160,10 +160,10 @@
             <!-- Aksen Garis Vertikal Kuning -->
             <div class="absolute left-0 top-0 bottom-0 w-2 bg-[#f59e0b] group-hover:w-3 transition-all duration-300"></div>
 
-            <!-- Ikon Kotak -->
-            <div class="bg-[#0b3d2e]/5 p-5 rounded-2xl text-[#0b3d2e] shrink-0 border border-[#0b3d2e]/10 group-hover:scale-110 group-hover:bg-[#0b3d2e] group-hover:text-white transition-all duration-500">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h6a4 4 0 014 4c0 2.28-1.58 4.29-3.78 4.86M18 13v3a3 3 0 01-3 3h-3" />
+            <!-- Ikon Kotak (DIPERBAIKI: group-hover:text-white dipindahkan langsung ke dalam tag svg) -->
+            <div class="bg-[#0b3d2e]/5 p-5 rounded-2xl shrink-0 border border-[#0b3d2e]/10 group-hover:scale-110 group-hover:bg-[#0b3d2e] transition-all duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-[#0b3d2e] group-hover:text-white transition-colors duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.982 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46" />
                 </svg>
             </div>
 
