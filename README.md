@@ -1,4 +1,6 @@
-Markdown
+Tentu, ini adalah keseluruhan teksnya yang sudah dijadikan satu dalam format *Markdown* agar kamu bisa langsung meng-klik tombol *Copy* dan menempelkannya dengan mudah di GitHub!
+
+```markdown
 <div align="center">
   <h1>🕌 Sistem Informasi & Manajemen Musholla At-Taqwa</h1>
   <p>Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan transparansi keuangan Musholla At-Taqwa. Dibangun dengan pendekatan <em>Mobile-First</em> untuk memastikan kenyamanan akses jamaah melalui <em>smartphone</em>, serta dilengkapi dengan dasbor Admin yang komprehensif.</p>
@@ -56,40 +58,66 @@ Jika Anda ingin menjalankan proyek ini di komputer lokal untuk pengembangan atau
    ```bash
    git clone [https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git](https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git)
    cd Web-Musholla-At-Taqwa
-Instalasi Dependensi PHP & Node.js
 
-Bash
+```
+
+2. **Instalasi Dependensi PHP & Node.js**
+```bash
 composer install
 npm install
-Kompilasi Aset Desain (Vite)
 
-Bash
+```
+
+
+3. **Kompilasi Aset Desain (Vite)**
+```bash
 npm run build
-Pengaturan Environment
-Salin file .env.example menjadi .env, lalu buat App Key.
 
-Bash
+```
+
+
+4. **Pengaturan Environment**
+Salin file `.env.example` menjadi `.env`, lalu buat *App Key*.
+```bash
 cp .env.example .env
 php artisan key:generate
-Penting: Atur koneksi database (DB_DATABASE, DB_USERNAME, DB_PASSWORD) di dalam file .env Anda sesuai dengan pengaturan lokal (misal: MySQL/MariaDB XAMPP).
 
-Migrasi Database & Seeder
+```
+
+
+*Penting: Atur koneksi database (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`) di dalam file `.env` Anda sesuai dengan pengaturan lokal (misal: MySQL/MariaDB XAMPP).*
+5. **Migrasi Database & Seeder**
 Bangun struktur tabel ke dalam database:
-
-Bash
+```bash
 php artisan migrate
-Untuk membuat akun Admin baru, jalankan perintah: php artisan make:filament-user
 
-Tautkan Folder Penyimpanan (Storage)
+```
+
+
+*Untuk membuat akun Admin baru, jalankan perintah:* `php artisan make:filament-user`
+6. **Tautkan Folder Penyimpanan (Storage)**
 Langkah ini wajib dilakukan agar gambar galeri, profil, dan berita dapat ditampilkan ke publik:
-
-Bash
+```bash
 php artisan storage:link
-Jalankan Server Lokal
 
-Bash
+```
+
+
+7. **Jalankan Server Lokal**
+```bash
 php artisan serve
-Sistem siap digunakan! Akses landing page melalui http://localhost:8000 dan dasbor admin di http://localhost:8000/admin.
 
-👨‍💻 Pengembang
-Dikembangkan oleh Ikmalrizal (Mahasiswa STT-NF) sebagai bagian dari proyek sistem informasi dan manajemen operasional sarana ibadah.
+```
+
+
+Sistem siap digunakan! Akses *landing page* melalui `http://localhost:8000` dan dasbor admin di `http://localhost:8000/admin`.
+
+---
+
+## 👨‍💻 Pengembang
+
+Dikembangkan oleh **Ikmalrizal** (Mahasiswa STT-NF) sebagai bagian dari proyek sistem informasi dan manajemen operasional sarana ibadah.
+
+```
+
+```
