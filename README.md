@@ -1,59 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🕌 Sistem Informasi & Manajemen Musholla At-Taqwa
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplikasi berbasis web untuk mengelola informasi publik, jadwal kegiatan, dan transparansi keuangan Musholla At-Taqwa. Dibangun dengan pendekatan *Mobile-First* untuk memastikan kenyamanan akses jamaah melalui *smartphone*, serta dilengkapi dengan dasbor Admin yang kuat.
 
-## About Laravel
+## 📸 Cuplikan Layar (Screenshots)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- GANTI LINK GAMBAR DI BAWAH INI NANTI -->
+### Tampilan Jamaah (Landing Page)
+![Tampilan Landing Page Desktop](https://via.placeholder.com/800x400?text=Masukkan+Gambar+Tampilan+Desktop+Di+Sini)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Tampilan Landing Page Mobile](https://via.placeholder.com/300x600?text=Masukkan+Gambar+Tampilan+Mobile+Di+Sini)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Tampilan Pengurus (Admin Panel)
+![Tampilan Dasbor Admin](https://via.placeholder.com/800x400?text=Masukkan+Gambar+Admin+Panel+Di+Sini)
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## ✨ Fitur Utama
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 📱 Publik (Landing Page)
+- **Tampilan Responsif & Modern:** Desain antarmuka (UI) yang rapi di semua ukuran layar (Mobile, Tablet, Desktop) dilengkapi dengan fitur *Dark Mode*.
+- **Informasi Ibadah:** Jadwal sholat harian dan informasi kajian/tausiyah.
+- **Transparansi Keuangan:** Publikasi laporan mutasi kas (pemasukan dan pengeluaran) infaq/sodaqoh jamaah secara *real-time*.
+- **Pusat Informasi:** Papan pengumuman kegiatan, berita liputan musholla, dan galeri dokumentasi.
+- **Donasi Digital:** Dukungan infaq mudah menggunakan *scan* kode QRIS.
 
-## Laravel Sponsors
+### ⚙️ Pengurus (Admin Panel)
+- **Manajemen Konten:** Kemudahan dalam menambah, mengedit, dan menghapus artikel berita, agenda, serta galeri foto.
+- **Manajemen Kas (Buku Besar):** Pencatatan sirkulasi keuangan musholla dengan perhitungan saldo otomatis.
+- **Manajemen Kepengurusan:** Pembaruan struktur organisasi dan profil pengurus musholla.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛠️ Teknologi yang Digunakan
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- **Framework Utama:** [Laravel](https://laravel.com/)
+- **Admin Panel:** [Filament v3](https://filamentphp.com/)
+- **Desain & UI:** [Tailwind CSS](https://tailwindcss.com/) & [Alpine.js](https://alpinejs.dev/)
+- **Pemrosesan Aset:** Vite
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 Panduan Instalasi Lokal
 
-## Code of Conduct
+Jika Anda ingin menjalankan proyek ini di komputer lokal untuk pengembangan, ikuti langkah-langkah berikut:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. **Kloning Repositori**
+   ```bash
+   git clone [https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git](https://github.com/Gondesanajay/Web-Musholla-At-Taqwa.git)
+   cd Web-Musholla-At-Taqwa
 
-## Security Vulnerabilities
+Instalasi Dependensi PHP & Node.js
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Bash
+composer install
+npm install
+Kompilasi Aset Desain (Vite)
 
-## License
+Bash
+npm run build
+Pengaturan Environment
+Salin file .env.example menjadi .env, lalu buat App Key.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Bash
+cp .env.example .env
+php artisan key:generate
+Jangan lupa atur koneksi database (DB_DATABASE, DB_USERNAME, dll) di dalam file .env Anda.
+
+Migrasi Database & Seeder
+
+Bash
+php artisan migrate --seed
+(Opsional: Tambahkan perintah untuk membuat user admin Filament jika diperlukan php artisan make:filament-user)
+
+Tautkan Folder Penyimpanan (Storage)
+Agar gambar galeri dan berita dapat diakses publik:
+
+Bash
+php artisan storage:link
+Jalankan Server Lokal
+
+Bash
+php artisan serve
+Akses website melalui http://localhost:8000 dan panel admin di http://localhost:8000/admin.
+
+Dibuat untuk memudahkan tata kelola dan syiar Musholla At-Taqwa.
